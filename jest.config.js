@@ -1,5 +1,5 @@
-export default {
-  root: ['<rootDir>/src'],
+module.exports = {
+  roots: ['<rootDir>/src'],
   clearMocks: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: 'coverage',
