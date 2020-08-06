@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "./node_modules/.bin/jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "./node_modules/.bin/jest --passWithNoTests"
   },
   "keywords": [],
   "author": "",
